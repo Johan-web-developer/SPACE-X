@@ -1,0 +1,37 @@
+#logo{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+#logo img{
+    width: 400px;
+   margin-top: 1rem;
+   border-radius:1rem;
+   border: solid rgb(231, 223, 3);
+  }
+
+body{
+    background-color: rgb(6, 21, 38);
+}  
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+.card-body{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.card{
+  background-color: rgb(201, 238, 255);
+  border-radius: 2rem;
+}
+
